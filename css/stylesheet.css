@@ -58,6 +58,9 @@ header ul li a {
 .profile-wrapper {
 	width: 50%;
 	margin: auto auto;
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 10px;
 }
 
 .profile-title {
