@@ -64,7 +64,6 @@ header ul li a {
 	max-width: 400px;
 	width: 100%;
 	font-family: cursive;
-	border: 1px solid blue;
 }
 
 .profile-title h1 {
@@ -72,7 +71,6 @@ header ul li a {
 	width: 80%;
 	height: 100%;
 	margin: auto 0;
-	border: 1px solid red;
 }
 
 .profile-title img {
