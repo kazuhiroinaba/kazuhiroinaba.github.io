@@ -4,10 +4,57 @@
 		<meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <title>Kazuhiro's Portfolio</title>
-	    <link rel="stylesheet" href="stylesheet.css">
-	    <link rel="stylesheet" href="responsive.css">
+	    <link rel="stylesheet" href="css/stylesheet.css">
+	    <link rel="stylesheet" href="css/responsive.css">
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<header>
+			<ul class="nav-list">
+				<li><a href="#about">About</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</header>
+		<div class="main">
+			<div class="top-wrapper" id="about">
+				<img class="hero-img" src="img/robot-solid.svg">
+				<div class="profile-wrapper">
+					<div class="profile-title">
+						<h1>Kazuhiro</h1>
+						<img src="img/profile.jpg">
+					</div>
+					<h2>I previously worked at Microsoft in Tokyo as a Program Manager.<br>Currently looking for a job as a front end engineer!</h2>
+				</div>
+			</div>
+			<div class="work even" id="works">
+				<h1>タスク管理デスクトップアプリ</h1>
+				<div class="item even">
+					<ul>
+						<li>短いコマンドやキーボードショートカットでタスクを管理できるデスクトップアプリ</li>
+						<li>使用言語: Java</li>
+						<li><a href="https://github.com/kazuhiroinaba/main"> GitHub </a></li>
+					</ul>
+					<img src="img/taskman.png">
+				</div>
+			</div>
+			<div class="work odd">
+				<h1>テトリス A I</h1>
+				<div class="item odd">
+					<img src="img/tetris.png">
+					<ul>
+						<li>テトリスゲームをミニマックス法で遊ぶ遺伝的アルゴリズムの A I エージェント</li>
+						<li>使用言語: Java</li>
+						<li><a href="https://github.com/kazuhiroinaba/IntroToAiTetris"> GitHub </a></li>
+					</ul>
+				</div>
+			</div>
+			<footer>
+				<ul class="contact-li" id="contact">
+					<li><a href="mailto:inaba.k@outlook.com"><img src="img/envelope-solid.svg"></a></li>
+					<li><a href="https://github.com/kazuhiroinaba"><img src="img/github-brands.svg"></a></li>
+					<li><a href="https://www.linkedin.com/in/kazuhiroinaba"><img src="img/linkedin-brands.svg"></a></li>
+				</ul>
+			</footer>
+		</div>
 	</body>
 </html>
