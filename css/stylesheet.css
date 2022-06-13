@@ -86,7 +86,7 @@ header ul li a {
 }
 
 .work {
-	height: 100vh;
+	padding-bottom: 50px;
 }
 
 .work h1 {
